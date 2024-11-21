@@ -231,3 +231,69 @@ VALUES (7, '두부, 애호박, 양파, 팽이버섯을 넣고 한소끔 끓인�
 INSERT INTO recipe_step (step_number, description, rid)
 VALUES (8, '마무리로 파를 올려준다.', 7);
 
+
+-- 8. 스팸동
+INSERT INTO purchase_link (link, seller) 
+VALUES ('https://example.com/buy-canned-ham', 'Example Store');
+
+INSERT INTO ingredient (ingredient_name, plid) 
+VALUES ('통조림 햄', 8);
+
+INSERT INTO recipe (recipe_name, description, calories, miid) 
+VALUES ('스팸동', '짭조름한 햄과 고소한 계란이 어우러진 한 그릇 요리', 580.00, 8);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (1, '통조림 햄을 얇고 넓게 편으로 썰어준다.', 8);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (2, '쪽파를 송송 썰어준다.', 8);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (3, '간장과 맛술, 설탕을 그릇에 넣어 잘 섞어 양념장을 만든다.', 8);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (4, '팬에 기름을 두르고 햄을 구워준다.', 8);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (5, '물과 양념장을 팬에 넣어주고 햄에 양념이 잘 스며들게 뒤집어가며 졸인다.', 8);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (6, '큰 그릇에 밥을 넣고 그 위에 햄을 올린다.', 8);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (7, '계란의 노른자만 따로 추출하여 한 가운데에 올린다.', 8);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (8, '손질한 쪽파 고명을 뿌려준다.', 8);
+
+-- 9. 숙주냄비밥
+INSERT INTO purchase_link (link, seller) 
+VALUES ('https://example.com/buy-bean-sprouts', 'Example Store');
+
+INSERT INTO ingredient (ingredient_name, plid) 
+VALUES ('숙주', 9);
+
+INSERT INTO recipe (recipe_name, description, calories, miid) 
+VALUES ('차돌숙주냄비밥', '숙주와 차돌박이가 어우러진 영양만점 냄비밥', 600.00, 9);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (1, '쌀을 흐르는 찬물에 씻어서 냄비에 넣고 물을 쌀이 잠길 정도로 넣어준다.', 9);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (2, '숙주를 체에 걸러 흐르는 찬물로 씻고 냄비에 넣는다.', 9);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (3, '차돌을 골고루 펼쳐 숙주 위에 올리고 뚜껑을 덮어 약불로 10분 조리해준다.', 9);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (4, '파는 송송 썰어서 그릇에 넣어준다.', 9);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (5, '마늘은 잘게 다져서 파를 넣은 그릇에 넣어준다.', 9);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (6, '간장, 설탕, 깨, 고춧가루, 참기름, 순후추를 그릇에 넣고 마늘과 파에 잘 버무려 양념장을 만든다.', 9);
+
+INSERT INTO recipe_step (step_number, description, rid)
+VALUES (7, '완성된 냄비밥에 양념장을 간에 잘 맞춰서 넣는다.', 9);
+

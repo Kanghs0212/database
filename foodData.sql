@@ -123,7 +123,7 @@ INSERT INTO ingredient (ingredient_name, plid)
 VALUES ('닭 윙', 4);
 
 INSERT INTO recipe (recipe_name, description, calories, miid) 
-VALUES ('콜라윙', '콜라와 간장이 어우러져 달콤 짭짤한 닭 윙 요리', 380.00, 5);
+VALUES ('콜라윙', '콜라와 간장이 어우러져 달콤 짭짤한 닭 윙 요리', 380.00, 4);
 
 INSERT INTO recipe_step (step_number, description, rid)
 VALUES (1, '해동시킨 윙에 칼집을 넣어준다.', 4);
@@ -149,7 +149,7 @@ INSERT INTO ingredient (ingredient_name, plid)
 VALUES ('냉동만두', 5);
 
 INSERT INTO recipe (recipe_name, description, calories, miid) 
-VALUES ('만두볶이', '냉동만두와 어묵이 어우러진 매콤달콤한 간식 요리', 500.00, 6);
+VALUES ('만두볶이', '냉동만두와 어묵이 어우러진 매콤달콤한 간식 요리', 500.00, 5);
 
 INSERT INTO recipe_step (step_number, description, rid)
 VALUES (1, '파와 어묵을 먹기 좋게 자른다.', 5);
@@ -174,7 +174,7 @@ INSERT INTO ingredient (ingredient_name, plid)
 VALUES ('토마토', 6);
 
 INSERT INTO recipe (recipe_name, description, calories, miid) 
-VALUES ('토달볶', '토마토와 계란이 어우러진 간단하고 부드러운 볶음 요리', 320.00, 7);
+VALUES ('토달볶', '토마토와 계란이 어우러진 간단하고 부드러운 볶음 요리', 320.00, 6);
 
 INSERT INTO recipe_step (step_number, description, rid)
 VALUES (1, '토마토의 심지를 제거하고 반으로 갈라 반달썰기 한다.', 6);
@@ -205,7 +205,7 @@ INSERT INTO ingredient (ingredient_name, plid)
 VALUES ('청국장', 7);
 
 INSERT INTO recipe (recipe_name, description, calories, miid) 
-VALUES ('청국장찌개', '구수한 청국장과 신선한 채소가 어우러진 전통 한식 찌개', 450.00, 8);
+VALUES ('청국장찌개', '구수한 청국장과 신선한 채소가 어우러진 전통 한식 찌개', 450.00, 7);
 
 INSERT INTO recipe_step (step_number, description, rid)
 VALUES (1, '김치, 두부, 양파, 애호박을 한입 크기로 잘라준다.', 7);

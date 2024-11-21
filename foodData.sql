@@ -297,3 +297,30 @@ VALUES (6, '간장, 설탕, 깨, 고춧가루, 참기름, 순후추를 그릇에
 INSERT INTO recipe_step (step_number, description, rid)
 VALUES (7, '완성된 냄비밥에 양념장을 간에 잘 맞춰서 넣는다.', 9);
 
+-- 10. 감바스
+INSERT INTO purchase_link (purchase_link_id, link, seller) 
+VALUES (10, 'https://example.com/buy-shrimp', 'Example Store');
+
+INSERT INTO ingredient (miid, ingredient_name, plid) 
+VALUES (11, '흰다리새우', 10);
+
+INSERT INTO recipe (rid, recipe_name, description, calories, miid) 
+VALUES (10, '감바스', '올리브 오일과 새우, 가리비가 어우러진 스페인 요리', 450.00, 10);
+
+INSERT INTO recipe_step (rsid, step_number, description, rid) 
+VALUES (69, 1, '가리비 관자를 적당한 한 입 두께로 편으로 썰어준다.', 10);
+
+INSERT INTO recipe_step (rsid, step_number, description, rid) 
+VALUES (70, 2, '손질된 흰다리새우와 가리비를 따로 흐르는 물에 한 번 씻긴 다음 소금과 후추로 밑간을 한다.', 10);
+
+INSERT INTO recipe_step (rsid, step_number, description, rid) 
+VALUES (71, 3, '마늘을 편으로 썰어준다.', 10);
+
+INSERT INTO recipe_step (rsid, step_number, description, rid) 
+VALUES (72, 4, '올리브 오일을 팬에 마늘과 페퍼론치노가 잠길 정도로 넣고 끓여 감바스 오일을 만든다.', 10);
+
+INSERT INTO recipe_step (rsid, step_number, description, rid) 
+VALUES (73, 5, '새우를 팬에 넣고 살짝 붉은 색이 돌 때까지 볶아준다.', 10);
+
+INSERT INTO recipe_step (rsid, step_number, description, rid) 
+VALUES (74, 6, '가리비 관자를 팬에 넣고 살짝 대치는 느낌으로 새우가 완전히 붉은 빛이 돌 때까지 볶는다.', 10);
